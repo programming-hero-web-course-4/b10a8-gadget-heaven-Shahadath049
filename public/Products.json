@@ -1,0 +1,258 @@
+[
+  {
+    "id": 1,
+    "product_name": "Asus ROG Strix Scar II Gaming Laptop",
+    "category": "Laptop",
+    "price": "$1,499.99",
+    "availability": "In Stock",
+    "description": "Ultra-slim, high-performance gaming laptop with 15.6-inch FHD display.",
+    "specifications": [
+      "Intel i7 12th Gen",
+      "16GB RAM",
+      "1TB SSD",
+      "144Hz Display"
+    ],
+    "rating": 4.7,
+    "image_url": "https://rog.asus.com/websites/global/products/8j6nXGQvQKxGvGQv/img/kv/kv-1.jpg"
+  },
+  {
+    "id": 2,
+    "product_name": "HP Spectre x360",
+    "category": "Laptop",
+    "price": "$1,299.99",
+    "availability": "In Stock",
+    "description": "2-in-1 convertible laptop with touchscreen and powerful performance.",
+    "specifications": [
+      "Intel i7 12th Gen",
+      "16GB RAM",
+      "512GB SSD",
+      "13.3-inch OLED Touchscreen"
+    ],
+    "rating": 4.8,
+    "image_url": "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08152620.png"
+  },
+  {
+    "id": 3,
+    "product_name": "Dell XPS 15",
+    "category": "Laptop",
+    "price": "$1,799.99",
+    "availability": "Out of Stock",
+    "description": "High-performance ultra-thin laptop with a stunning 4K display.",
+    "specifications": [
+      "Intel i9 12th Gen",
+      "32GB RAM",
+      "1TB SSD",
+      "15.6-inch 4K UHD Display"
+    ],
+    "rating": 4.9,
+    "image_url": "https://i.dell.com/sites/imagecontent/products/PublishingImages/xps-15-9500-laptop/spi/ng/xps-15-9500-laptop-gray-gallery-3.jpg"
+  },
+  {
+    "id": 4,
+    "product_name": "Samsung Galaxy S21 FE 5G",
+    "category": "Phone",
+    "price": "$699.99",
+    "availability": "In Stock",
+    "description": "Premium 5G smartphone with a sleek design and powerful performance.",
+    "specifications": [
+      "Exynos 2100 / Snapdragon 888",
+      "8GB RAM",
+      "128GB Storage",
+      "120Hz AMOLED Display"
+    ],
+    "rating": 4.5,
+    "image_url": "https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s21-fe-5g-1.jpg"
+  },
+  {
+    "id": 5,
+    "product_name": "Google Pixel 7 Pro",
+    "category": "Phone",
+    "price": "$899.99",
+    "availability": "In Stock",
+    "description": "Google’s best smartphone with AI-powered photography.",
+    "specifications": [
+      "Google Tensor G2",
+      "12GB RAM",
+      "256GB Storage",
+      "6.7-inch OLED Display"
+    ],
+    "rating": 4.7,
+    "image_url": "https://fdn2.gsmarena.com/vv/pics/google/google-pixel-7-pro-1.jpg"
+  },
+  {
+    "id": 6,
+    "product_name": "Apple Watch Series 9",
+    "category": "Smart Watches",
+    "price": "$499.99",
+    "availability": "In Stock",
+    "description": "Advanced smartwatch with ECG and sleep tracking.",
+    "specifications": [
+      "Always-On Retina Display",
+      "Blood Oxygen & ECG",
+      "Waterproof",
+      "Fitness Tracking"
+    ],
+    "rating": 4.9,
+    "image_url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MQKW3_VW_34FR+watch-45-alum-silver-cell-8s_VW_34FR_WF_CO_GEO_US?wid=2000&hei=2000&fmt=jpeg&qlt=80&.v=1660778156478"
+  },
+  {
+    "id": 7,
+    "product_name": "Samsung Galaxy Watch 5 Pro",
+    "category": "Smart Watches",
+    "price": "$349.99",
+    "availability": "In Stock",
+    "description": "Rugged smartwatch with long battery life and GPS.",
+    "specifications": [
+      "1.4-inch AMOLED Display",
+      "SpO2 Sensor",
+      "Sleep Tracking",
+      "5ATM Water Resistance"
+    ],
+    "rating": 4.6,
+    "image_url": "https://static.bhphoto.com/images/images500x500/samsung_sm_r835usdaxar_galaxy_watch_active2_lte_1565699782_1491584.jpg"
+  },
+  {
+    "id": 8,
+    "product_name": "Apple MacBook Pro M2 (16-inch, 2023)",
+    "category": "MacBook",
+    "price": "$2,499.99",
+    "availability": "In Stock",
+    "description": "MacBook Pro with M2 Pro chip and Retina display.",
+    "specifications": [
+      "Apple M2 Pro",
+      "16GB RAM",
+      "1TB SSD",
+      "16-inch Retina Display"
+    ],
+    "rating": 4.9,
+    "image_url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-pro-14-and-16-select-202301?wid=452&hei=420&fmt=jpeg&qlt=95&.v=1671304678865"
+  },
+  {
+    "id": 9,
+    "product_name": "Apple iPhone 15 Pro Max",
+    "category": "iPhone",
+    "price": "$1,199.99",
+    "availability": "In Stock",
+    "description": "The latest iPhone with a powerful A17 Bionic chip.",
+    "specifications": [
+      "A17 Bionic Chip",
+      "8GB RAM",
+      "512GB Storage",
+      "Super Retina XDR Display"
+    ],
+    "rating": 4.9,
+    "image_url": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-15-Pro-lineup_091223.jpg"
+  },
+  {
+    "id": 10,
+    "product_name": "Apple iPhone 14",
+    "category": "iPhone",
+    "price": "$799.99",
+    "availability": "Out of Stock",
+    "description": "Feature-rich smartphone with powerful performance.",
+    "specifications": [
+      "A15 Bionic Chip",
+      "6GB RAM",
+      "256GB Storage",
+      "Super Retina XDR Display"
+    ],
+    "rating": 4.8,
+    "image_url": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-14-lineup_091322.jpg"
+  },
+  {
+    "id": 11,
+    "product_name": "Lenovo ThinkPad X1 Carbon Gen 10",
+    "category": "Laptop",
+    "price": "$1,699.99",
+    "availability": "In Stock",
+    "description": "Ultra-lightweight business laptop with premium security features.",
+    "specifications": [
+      "Intel i7 12th Gen",
+      "16GB RAM",
+      "1TB SSD",
+      "14-inch FHD+ Display"
+    ],
+    "rating": 4.7,
+    "image_url": "https://www.lenovo.com/medias/thinkpad-x1-carbon-gen-10.png"
+  },
+  {
+    "id": 12,
+    "product_name": "Samsung Galaxy Z Fold 5",
+    "category": "Phone",
+    "price": "$1,799.99",
+    "availability": "In Stock",
+    "description": "Revolutionary foldable phone with an immersive large display.",
+    "specifications": [
+      "Snapdragon 8 Gen 2",
+      "12GB RAM",
+      "512GB Storage",
+      "7.6-inch Foldable AMOLED Display"
+    ],
+    "rating": 4.6,
+    "image_url": "https://images.samsung.com/is/image/samsung/p6pim/levant/feature/levant-feature-galaxy-z-fold5-f946-535322529"
+  },
+  {
+    "id": 13,
+    "product_name": "OnePlus 11 5G",
+    "category": "Phone",
+    "price": "$749.99",
+    "availability": "In Stock",
+    "description": "Powerful flagship phone with ultra-fast charging and premium design.",
+    "specifications": [
+      "Snapdragon 8 Gen 2",
+      "16GB RAM",
+      "256GB Storage",
+      "6.7-inch AMOLED 120Hz Display"
+    ],
+    "rating": 4.5,
+    "image_url": "https://www.oneplus.com/content/dam/oasis/page/2023/oneplus-11/specs/oneplus11-black.png"
+  },
+  {
+    "id": 14,
+    "product_name": "Garmin Fenix 7X Sapphire Solar",
+    "category": "Smart Watches",
+    "price": "$899.99",
+    "availability": "In Stock",
+    "description": "Premium multi-sport GPS smartwatch with solar charging.",
+    "specifications": [
+      "1.4-inch Touchscreen",
+      "Solar Charging",
+      "Heart Rate & Pulse Ox Sensors",
+      "Built-in GPS & Mapping"
+    ],
+    "rating": 4.8,
+    "image_url": "https://static.garmincdn.com/en/products/010-02541-00/g/cf-lg-3d85e65d-3acb-4707-b27e-53991e2955c2.jpg"
+  },
+  {
+    "id": 15,
+    "product_name": "MacBook Air M2 (2023)",
+    "category": "MacBook",
+    "price": "$1,199.99",
+    "availability": "In Stock",
+    "description": "Lightweight MacBook with the powerful M2 chip.",
+    "specifications": [
+      "Apple M2 Chip",
+      "8GB RAM",
+      "512GB SSD",
+      "13.6-inch Liquid Retina Display"
+    ],
+    "rating": 4.9,
+    "image_url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-m2-midnight-20220606_GEO_US?wid=904&hei=840&fmt=jpeg&qlt=80&.v=1653084303665"
+  },
+  {
+    "id": 16,
+    "product_name": "iPhone SE (2022)",
+    "category": "iPhone",
+    "price": "$429.99",
+    "availability": "In Stock",
+    "description": "Compact iPhone with powerful performance and classic design.",
+    "specifications": [
+      "A15 Bionic Chip",
+      "4GB RAM",
+      "128GB Storage",
+      "4.7-inch Retina HD Display"
+    ],
+    "rating": 4.6,
+    "image_url": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iPhone-SE_5G_091322.jpg"
+  }
+]
