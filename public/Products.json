@@ -3,7 +3,7 @@
     "id": 1,
     "product_name": "Asus ROG Strix Scar II Gaming Laptop",
     "category": "Laptop",
-    "price": "$1,499.99",
+    "price": "$1499.99",
     "availability": "In Stock",
     "description": "Ultra-slim, high-performance gaming laptop with 15.6-inch FHD display.",
     "specifications": [
@@ -13,13 +13,13 @@
       "144Hz Display"
     ],
     "rating": 4.7,
-    "image_url": "/api/placeholder/400/300"
+    "image_url": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/rog-strix-scar-ii-gl704gv/gl704gv-01-500x500.jpg"
   },
   {
     "id": 2,
     "product_name": "HP Spectre x360",
     "category": "Laptop",
-    "price": "$1,299.99",
+    "price": "$1299.99",
     "availability": "In Stock",
     "description": "2-in-1 convertible laptop with touchscreen and powerful performance.",
     "specifications": [
@@ -29,13 +29,13 @@
       "13.3-inch OLED Touchscreen"
     ],
     "rating": 4.8,
-    "image_url": "/api/placeholder/400/300"
+    "image_url": "https://m.media-amazon.com/images/I/818tjkTJM1L.jpg"
   },
   {
     "id": 3,
     "product_name": "Dell XPS 15",
     "category": "Laptop",
-    "price": "$1,799.99",
+    "price": "$1799.99",
     "availability": "Out of Stock",
     "description": "High-performance ultra-thin laptop with a stunning 4K display.",
     "specifications": [
@@ -45,7 +45,7 @@
       "15.6-inch 4K UHD Display"
     ],
     "rating": 4.9,
-    "image_url": "/api/placeholder/400/300"
+    "image_url": "https://www.notebookcheck.net/uploads/tx_nbc2/DellXPS15-9510__1__04.jpg"
   },
   {
     "id": 4,
@@ -61,7 +61,7 @@
       "120Hz AMOLED Display"
     ],
     "rating": 4.5,
-    "image_url": "/api/placeholder/400/300"
+    "image_url": "https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1676998228/Croma%20Assets/Communication/Cases%20and%20Covers/Images/249130_0_dnvbci.png?tr=w-600"
   },
   {
     "id": 5,
@@ -77,7 +77,7 @@
       "6.7-inch OLED Display"
     ],
     "rating": 4.7,
-    "image_url": "/api/placeholder/400/300"
+    "image_url": "https://carbonphone.de/cdn/shop/files/0836an3w.png?v=1723130326"
   },
   {
     "id": 6,
@@ -93,7 +93,7 @@
       "Fitness Tracking"
     ],
     "rating": 4.9,
-    "image_url": "/api/placeholder/400/300"
+    "image_url": "https://m.media-amazon.com/images/I/71jB1cEqFeL._AC_SL1500_.jpg"
   },
   {
     "id": 7,
@@ -109,13 +109,13 @@
       "5ATM Water Resistance"
     ],
     "rating": 4.6,
-    "image_url": "/api/placeholder/400/300"
+    "image_url": "https://images.samsung.com/bd/galaxy-watch5-pro/feature/galaxy-watch5-face-visual-mo-01.jpg"
   },
   {
     "id": 8,
     "product_name": "Apple MacBook Pro M2 (16-inch, 2023)",
     "category": "MacBook",
-    "price": "$2,499.99",
+    "price": "$2499.99",
     "availability": "In Stock",
     "description": "MacBook Pro with M2 Pro chip and Retina display.",
     "specifications": [
@@ -125,13 +125,13 @@
       "16-inch Retina Display"
     ],
     "rating": 4.9,
-    "image_url": "/api/placeholder/400/300"
+    "image_url": "https://www.apple.com/newsroom/images/product/mac/standard/Apple-MacBook-Pro-M2-Pro-and-M2-Max-hero-230117.jpg.og.jpg"
   },
   {
     "id": 9,
     "product_name": "Apple iPhone 15 Pro Max",
     "category": "iPhone",
-    "price": "$1,199.99",
+    "price": "$1199.99",
     "availability": "In Stock",
     "description": "The latest iPhone with a powerful A17 Bionic chip.",
     "specifications": [
@@ -141,7 +141,7 @@
       "Super Retina XDR Display"
     ],
     "rating": 4.9,
-    "image_url": "/api/placeholder/400/300"
+    "image_url": "https://www.apple.com/newsroom/images/2023/09/apple-iphone-15-pro-lineup-hero-230912.jpg.og.jpg"
   },
   {
     "id": 10,
@@ -157,13 +157,13 @@
       "Super Retina XDR Display"
     ],
     "rating": 4.8,
-    "image_url": "/api/placeholder/400/300"
+    "image_url": "https://www.apple.com/newsroom/images/2022/09/apple-unveils-iphone-14-and-iphone-14-plus/article/Apple-iPhone-14-lineup-hero-220907.jpg.og.jpg"
   },
   {
     "id": 11,
     "product_name": "Lenovo ThinkPad X1 Carbon Gen 10",
     "category": "Laptop",
-    "price": "$1,699.99",
+    "price": "$1699.99",
     "availability": "In Stock",
     "description": "Ultra-lightweight business laptop with premium security features.",
     "specifications": [
@@ -173,13 +173,13 @@
       "14-inch FHD+ Display"
     ],
     "rating": 4.7,
-    "image_url": "/api/placeholder/400/300"
+    "image_url": "https://www.lenovo.com/medias/lenovo-laptops-thinkpad-x1-carbon-gen10-subseries-hero.png?context=bWFzdGVyfHJvb3R8MjEwNDE2fGltYWdlL3BuZ3xoYzYvaDk5LzE0MjE5NTAxOTQ3ODA2LnBuZ3xjZGU3ZDY4NWM1NjQ5NDY0YzU4MTE0NzVkNDRlZGM5YzAzMjBmY2I4MzE0M2IxOGI3NDU2YjQwYjY2OTRlYzA0"
   },
   {
     "id": 12,
     "product_name": "Samsung Galaxy Z Fold 5",
     "category": "Phone",
-    "price": "$1,799.99",
+    "price": "$1799.99",
     "availability": "In Stock",
     "description": "Revolutionary foldable phone with an immersive large display.",
     "specifications": [
@@ -189,7 +189,7 @@
       "7.6-inch Foldable AMOLED Display"
     ],
     "rating": 4.6,
-    "image_url": "/api/placeholder/400/300"
+    "image_url": "https://images.samsung.com/is/image/samsung/p6pim/levant_ar/2307/gallery/levant-ar-galaxy-z-fold5-f946-sm-f946bznemid-537170369?imwidth=480"
   },
   {
     "id": 13,
@@ -205,7 +205,7 @@
       "6.7-inch AMOLED 120Hz Display"
     ],
     "rating": 4.5,
-    "image_url": "/api/placeholder/400/300"
+    "image_url": "https://image01.oneplus.net/shop/2023/01/04083750/DF1A2114_1.png"
   },
   {
     "id": 14,
@@ -221,13 +221,13 @@
       "Built-in GPS & Mapping"
     ],
     "rating": 4.8,
-    "image_url": "/api/placeholder/400/300"
+    "image_url": "https://www.garmin.com/en-US/p/739978/pn/010-02572-11"
   },
   {
     "id": 15,
     "product_name": "MacBook Air M2 (2023)",
     "category": "MacBook",
-    "price": "$1,199.99",
+    "price": "$1199.99",
     "availability": "In Stock",
     "description": "Lightweight MacBook with the powerful M2 chip.",
     "specifications": [
@@ -237,7 +237,7 @@
       "13.6-inch Liquid Retina Display"
     ],
     "rating": 4.9,
-    "image_url": "/api/placeholder/400/300"
+    "image_url": "https://www.apple.com/newsroom/images/product/mac/standard/Apple-MacBook-Air-M2-20220606.jpg.og.jpg"
   },
   {
     "id": 16,
@@ -253,6 +253,6 @@
       "4.7-inch Retina HD Display"
     ],
     "rating": 4.6,
-    "image_url": "/api/placeholder/400/300"
+    "image_url": "https://www.apple.com/newsroom/images/2022/03/apple-iphone-se-2022.jpg.og.jpg"
   }
 ]

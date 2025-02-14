@@ -1,16 +1,16 @@
 
 const Footer = () => {
     return (
-        <footer className="py-16 border-t ">
+        <footer className="py-16 border-t bg-white ">
       <div className="w-full mx-auto px-4">
         {/* Logo and Tagline */}
         <div className="text-center mb-16">
           <h2 className="text-2xl font-bold mb-2">Gadget Heaven</h2>
           <p className="text-gray-600">Leading the way in cutting-edge technology and innovation.</p>
         </div>
-        <hr className="border-gray-950 mb-8" />
+        <hr className="border-gray-300 mb-8 w-4/6 mx-auto" />
         {/* Footer Links Grid */}
-        <div className="grid grid-cols-3 max-w-5xl mx-auto text-center gap-8">
+        <div className="grid grid-cols-3 max-w-5xl  mx-auto text-center lg:gap-8 ">
           {/* Services Column */}
           <div>
             <h3 className="font-semibold text-lg mb-4">Services</h3>

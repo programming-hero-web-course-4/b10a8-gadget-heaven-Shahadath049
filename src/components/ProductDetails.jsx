@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Star } from 'lucide-react';
 import { useProducts } from './ProductContext';
 import { useParams } from 'react-router';
+import { toast } from 'sonner';
 
 const ProductDetails = () => {
   const { productId } = useParams();
@@ -18,9 +19,10 @@ const ProductDetails = () => {
   }, [product]);
 
   const addToCart = (product) => {
+
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
     if (!cart.some(item => item.id === product.id)) {
-      cart.push(product);
+      cart.push(product );
       localStorage.setItem('cart', JSON.stringify(cart));
       setIsInCart(true);
     }
@@ -29,9 +31,10 @@ const ProductDetails = () => {
   const addToWishlist = (product) => {
     const wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
     if (!wishlist.some(item => item.id === product.id)) {
-      wishlist.push(product);
+      wishlist.push(product );
       localStorage.setItem('wishlist', JSON.stringify(wishlist));
       setIsInWishlist(true);
+      toast.success('Product added to wishlist!');
     }
   };
   const {
@@ -48,7 +51,7 @@ const ProductDetails = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Purple Header Section */}
-      <div className="bg-purple-600 text-white pb-40 pt-10 px-4  text-center">
+      <div className="bg-purple-600 text-white pb-40 pt-10 px-4 text-center">
         <h1 className="text-3xl font-bold mb-4">Product Details</h1>
         <p className="max-w-2xl mx-auto">
           Explore the latest gadgets that will take your experience to the next level. From smart devices to
@@ -58,14 +61,14 @@ const ProductDetails = () => {
 
       {/* Product Card Section */}
       <div className="max-w-6xl mx-auto px-4 -mt-24">
-        <div className="bg-white rounded-2xl shadow-lg p-6 flex gap-8">
+        <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col md:flex-row gap-8">
           {/* Left Image */}
-          <div className="w-1/2">
+          <div className="w-full md:w-1/2">
             <img src={image_url} alt={product_name} className="bg-gray-200 rounded-lg w-full h-full aspect-square" />
           </div>
 
           {/* Right Content */}
-          <div className="w-1/2 space-y-4">
+          <div className="w-full md:w-1/2 space-y-4">
             <h2 className="text-2xl font-bold">{product_name}</h2>
 
             <div className="flex items-center justify-between">
@@ -132,6 +135,7 @@ const ProductDetails = () => {
         </div>
       </div>
     </div>
+
   );
 };
 

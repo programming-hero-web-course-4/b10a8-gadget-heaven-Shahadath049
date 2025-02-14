@@ -5,7 +5,7 @@ import ProductList from "./ProductList";
 
 const HeroSection = () => {
   return (
-    <div className="px-5">
+    <div className="">
       <div className="w-full bg-purple-600  -mb-32 md:-mb-48 lg:-mb-48 rounded-b-3xl ">
       <div className="max-w-7xl mx-auto px-4 py-8  ">
         
