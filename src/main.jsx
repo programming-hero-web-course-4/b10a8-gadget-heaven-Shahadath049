@@ -6,6 +6,9 @@ import { createBrowserRouter, RouterProvider } from 'react-router'
 import Home from './components/Home.jsx'
 import Statistics from './components/Statistics.jsx';
 import Dashboard from './components/Dashboard.jsx';
+import ProductDetails from './components/ProductDetails';
+import Cart from './components/Cart';
+import Wishlist from './components/Wishlist';
 
 
 const router = createBrowserRouter([
@@ -23,8 +26,24 @@ const router = createBrowserRouter([
       },
       {
         path: '/dashboard',
-        element: <Dashboard></Dashboard>
-      } 
+        element: <Dashboard></Dashboard>,
+        children: [ {
+          path: '/dashboard/cart',
+          element: <Cart></Cart>,
+          errorElement: <h1>404 Not Found</h1>
+        },
+        {
+          path: '/dashboard/wishlist',
+          element: <Wishlist></Wishlist>,
+          errorElement: <h1>404 Not Found</h1>
+        }] 
+      } ,
+      {
+        path: '/product-details/:productId',
+        element: <ProductDetails></ProductDetails>,
+        errorElement: <h1>404 Not Found</h1>
+      },
+     
     ]
   },
   {

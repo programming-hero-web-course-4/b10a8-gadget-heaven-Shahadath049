@@ -1,34 +1,35 @@
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
+
 
 const NavBar = () => {
+  const navLinkClasses = ({ isActive }) => 
+    `inline-block px-4 py-2 transition-colors duration-200 hover:text-cyan-400 ${
+      isActive 
+        ? 'text-cyan-400 border-b-2 border-white' 
+        : 'text-white hover:border-b-2 border-white'
+    }`;
   return (
     <div className=" mx-5 bg-purple-600 mt-5 rounded-t-3xl">
-      <nav className="flex justify-between items-center  bg-purple-600  py-10 container mx-auto px-4">
+      <nav className="flex justify-around bg-purple-600  py-10 container mx-auto px-4">
         <div className="text-white text-2xl font-semibold ">Gadget Heaven</div>
         <div className="flex items-center space-x-8">
-          <div className="text-white space-x-6">
-            <Link
-              className="hover:text-gray-200 hover:border-b-2 border-white"
-              to={"/"}
-            >
-              {" "}
-              Home{" "}
-            </Link>
-            <Link
-              to={"/statistics"}
-              className="hover:text-gray-200 hover:border-b-2 border-white"
-            >
-              Statistics
-            </Link>
-            <Link
-              to={"/dashboard"}
-              className="hover:text-gray-200 hover:border-b-2 border-white"
-            >
-              Dashboard
-            </Link>
-          </div>
-          <div className="flex space-x-4">
-            <button className="p-2 bg-white/10 rounded-full hover:bg-white/20">
+        <div className="text-white space-x-6">
+        <NavLink to="/" className={navLinkClasses}>
+          Home
+        </NavLink>
+        <NavLink to="/statistics" className={navLinkClasses}>
+          Statistics
+        </NavLink>
+        <NavLink to="/dashboard" className={navLinkClasses}>
+          Dashboard
+        </NavLink>
+      </div>
+
+         
+        </div>
+        <div className="flex space-x-4">
+          <Link to="/dashboard/cart">
+          <button className="p-2 bg-white/10 rounded-full hover:bg-white/20">
               <svg
                 className="w-6 h-6 text-white"
                 fill="none"
@@ -39,11 +40,13 @@ const NavBar = () => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth={2}
-                  d="M3 3h18v18H3z"
+                  d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
                 />
               </svg>
             </button>
-            <button className="p-2 bg-white/10 rounded-full hover:bg-white/20">
+          </Link >
+          <Link to="/dashboard/wishlist">
+          <button className="p-2 bg-white/10 rounded-full hover:bg-white/20">
               <svg
                 className="w-6 h-6 text-white"
                 fill="none"
@@ -58,8 +61,8 @@ const NavBar = () => {
                 />
               </svg>
             </button>
+          </Link>
           </div>
-        </div>
       </nav>
     </div>
   );

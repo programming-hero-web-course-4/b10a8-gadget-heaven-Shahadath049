@@ -1,14 +1,17 @@
 import { Outlet } from "react-router";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import { ProductProvider } from "./components/ProductContext";
 
 
 function App() {
   return (
     <div className="bg-gray-200">
-      <NavBar />
-      <Outlet />
-      <Footer />
+      <ProductProvider>
+        <NavBar />
+        <Outlet />
+        <Footer />
+      </ProductProvider>
     </div>
   );
 }
