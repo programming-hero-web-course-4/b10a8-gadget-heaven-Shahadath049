@@ -10,7 +10,12 @@ import ProductDetails from './components/ProductDetails';
 import Cart from './components/Cart';
 import Wishlist from './components/Wishlist';
 import NotFoundPage from './components/NotFoundPage';
+import useDocumentTitle from './components/ui/useDocumentTitle';
 
+const TitleWrapper = ({ title, children }) => {
+  useDocumentTitle(title);
+  return children;
+};
 
 const router = createBrowserRouter([
   {
@@ -19,37 +24,42 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home></Home>
+        element: <TitleWrapper title="Home"><Home /></TitleWrapper>,
+        errorElement: <TitleWrapper title="404 Not Found"><NotFoundPage /></TitleWrapper>
       },
       {
         path: '/statistics',
-        element: <Statistics></Statistics>
+        element: <TitleWrapper title="Statistics"><Statistics /></TitleWrapper>,
+        errorElement: <NotFoundPage />
       },
       {
         path: '/dashboard',
-        element: <Dashboard></Dashboard>,
-        children: [ {
-          path: '/dashboard/cart',
-          element: <Cart></Cart>,
-          errorElement: <NotFoundPage></NotFoundPage>
-        },
-        {
-          path: '/dashboard/wishlist',
-          element: <Wishlist></Wishlist>,
-          errorElement: <NotFoundPage></NotFoundPage>
-        }] 
-      } ,
+        element: <TitleWrapper title="Dashboard"><Dashboard /></TitleWrapper>,
+        
+        children: [
+          {
+            path: '/dashboard/cart',
+            element: <TitleWrapper title="Cart"><Cart /></TitleWrapper>,
+            errorElement: <NotFoundPage />
+          },
+          {
+            path: '/dashboard/wishlist',
+            element: <TitleWrapper title="Wishlist"><Wishlist /></TitleWrapper>,
+            errorElement: <NotFoundPage />
+          }
+        ],
+       
+      },
       {
         path: '/product-details/:productId',
-        element: <ProductDetails></ProductDetails>,
-        errorElement: <NotFoundPage></NotFoundPage>
+        element: <TitleWrapper title="Product Details"><ProductDetails /></TitleWrapper>,
+        errorElement: <NotFoundPage />
       },
-     
     ]
   },
   {
     path: '/*',
-    element: <h1>404 Not Found</h1>
+    element: <TitleWrapper title="404 Not Found"><NotFoundPage /></TitleWrapper>
   }
 ])
 
