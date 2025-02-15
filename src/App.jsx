@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { ProductProvider } from "./components/ProductContext";
 import { Toaster } from "sonner";
-
+import './App.css';
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
           duration: 3000,
         }}
       />
-    <div className="bg-gray-200">
+    <div className="bg-gray-200 sora-uniquefont">
       <ProductProvider>
         <NavBar />
         <Outlet />

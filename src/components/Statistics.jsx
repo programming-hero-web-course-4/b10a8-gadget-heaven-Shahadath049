@@ -27,7 +27,7 @@ const data = products.map(product => ({
 
   return (
     <div className=" p-4 container mx-auto">
-      <h2 className="text-xl font-semibold mb-4">Statistics</h2>
+      <h2 className="text-xl font-semibold my-10">Statistics</h2>
       <div className="bg-white p-6 rounded-lg shadow-sm h-96">
         <ResponsiveContainer width="100%" height="100%">
           <ComposedChart data={data}>

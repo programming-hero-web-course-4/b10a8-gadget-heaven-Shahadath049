@@ -5,7 +5,7 @@ const Footer = () => {
       <div className="w-full mx-auto px-4">
         {/* Logo and Tagline */}
         <div className="text-center mb-16">
-          <h2 className="text-2xl font-bold mb-2">Gadget Heaven</h2>
+          <h2 className="lg:text-4xl text-3xl font-bold mb-2">Gadget Heaven</h2>
           <p className="text-gray-600">Leading the way in cutting-edge technology and innovation.</p>
         </div>
         <hr className="border-gray-300 mb-8 w-4/6 mx-auto" />

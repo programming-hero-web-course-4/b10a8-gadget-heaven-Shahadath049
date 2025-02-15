@@ -25,6 +25,7 @@ const ProductDetails = () => {
       cart.push(product );
       localStorage.setItem('cart', JSON.stringify(cart));
       setIsInCart(true);
+      toast.success('Product added to cart!');
     }
   };
 
@@ -108,8 +109,8 @@ const ProductDetails = () => {
             <div className="flex items-center space-x-4 pt-4">
               <button 
                 onClick={() => addToCart(product)} 
-                className={`px-6 py-2 rounded-lg flex items-center ${
-                  isInCart ? 'bg-green-600 text-white' : 'bg-purple-600 text-white'
+                className={`cursor-pointer inline-flex items-center rounded-full px-9 py-3 text-xl font-mono font-semibold text-white hover:text-white border-2 border-purple-600 hover:bg-purple-700 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-75 duration-300 focus:bg-transparent ${
+                  isInCart ? 'bg-purple-500 text-white' : 'bg-purple-600 text-white'
                 }`}
                 disabled={isInCart}
               >

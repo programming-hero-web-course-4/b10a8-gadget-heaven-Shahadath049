@@ -6,21 +6,21 @@ const ProductList = () => {
 
   return (
     <div>
-      <h1 className="text-5xl font-bold text-center mt-32 mb-20">
+      <h1 className="lg:text-5xl text-4xl font-bold text-center mt-24 mb-12">
         Explore Cutting-Edge Gadgets
       </h1>
       <div className="container mx-auto p-4 lg:flex items-start gap-8">
         <div className="lg:flex lg:flex-col space-x-2 space-y-4 lg:w-1/6 w-full bg-gray-100 rounded-2xl p-4  mb-5">
           <button
             onClick={() => handleFilter("All Products")}
-            className="overflow-hidden relative w-auto p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer z-10 group"
+            className=" overflow-hidden relative w-auto p-4 pb-10 h-12 bg-black text-white border-none rounded-full border border-gray-600  text-xl font-bold cursor-pointer z-10 group"
           >
             All Products
             <span className="absolute w-full h-32 -top-8 -left-2 bg-green-200 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-bottom" />
             <span className="absolute w-full h-32 -top-8 -left-2 bg-green-400 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-bottom" />
             <span className="absolute w-full h-32 -top-8 -left-2 bg-green-600 rounded-full transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-bottom" />
-            <span className="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10">
-              Explore!
+            <span className="text-center group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10">
+              View ALL
             </span>
           </button>
           {[...new Set(products.map((product) => product.category))].map(
