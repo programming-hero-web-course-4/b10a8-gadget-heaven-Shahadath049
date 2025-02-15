@@ -13,7 +13,7 @@ const HeroSection = () => {
 
         {/* Hero Content */}
         <div className="text-center max-w-5xl mx-auto mb-48  backdrop-blur-2xl p-5 rounded-3xl ">
-          <h1 className="text-white text-5xl font-bold  leading-tight mb-5">
+          <h1 className="text-white lg:text-5xl text-4xl font-extrabold  leading-tight mb-5">
             Upgrade Your Tech Accessorize with Gadget Heaven Accessories
           </h1>
           <p className="text-white/90 text-lg mb-8">

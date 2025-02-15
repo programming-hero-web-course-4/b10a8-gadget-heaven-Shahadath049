@@ -51,7 +51,7 @@ const ProductDetails = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Purple Header Section */}
-      <div className="bg-purple-600 text-white pb-40 pt-10 px-4 text-center">
+      <div className="lg:mx-5 bg-purple-600 text-white pb-40 pt-10 px-4 text-center">
         <h1 className="text-3xl font-bold mb-4">Product Details</h1>
         <p className="max-w-2xl mx-auto">
           Explore the latest gadgets that will take your experience to the next level. From smart devices to

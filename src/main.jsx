@@ -9,6 +9,7 @@ import Dashboard from './components/Dashboard.jsx';
 import ProductDetails from './components/ProductDetails';
 import Cart from './components/Cart';
 import Wishlist from './components/Wishlist';
+import NotFoundPage from './components/NotFoundPage';
 
 
 const router = createBrowserRouter([
@@ -30,18 +31,18 @@ const router = createBrowserRouter([
         children: [ {
           path: '/dashboard/cart',
           element: <Cart></Cart>,
-          errorElement: <h1>404 Not Found</h1>
+          errorElement: <NotFoundPage></NotFoundPage>
         },
         {
           path: '/dashboard/wishlist',
           element: <Wishlist></Wishlist>,
-          errorElement: <h1>404 Not Found</h1>
+          errorElement: <NotFoundPage></NotFoundPage>
         }] 
       } ,
       {
         path: '/product-details/:productId',
         element: <ProductDetails></ProductDetails>,
-        errorElement: <h1>404 Not Found</h1>
+        errorElement: <NotFoundPage></NotFoundPage>
       },
      
     ]
