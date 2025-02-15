@@ -29,7 +29,7 @@ To install this project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/project-name.git
+   git clone https://github.com/programming-hero-web-course-4/b10a8-gadget-heaven-Shahadath049
    ```
 2. Navigate to the project directory:
    ```bash
@@ -60,8 +60,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact me at [your-email@example.com].
+If you have any questions or suggestions, feel free to contact me at [jamirshahadath049@gmail.com].
 
 ## Live Demo
 
-Check out the live demo of this project at [Live Demo Link](https://your-live-demo-link.com)
+Check out the live demo of this project at [Live Demo Link](Gadget-heaveninbd.surge.sh)
